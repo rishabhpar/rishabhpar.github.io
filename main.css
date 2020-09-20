@@ -1,7 +1,7 @@
 	/* Style for our header texts
 	* --------------------------------------- */
 	h1{
-		font-size: 5em;
+		font-size: 10em;
     font-family: 'Josefin Sans', helvetica, arial, sans-serif;
     font-weight: 400;
 		color: #fff;
@@ -43,5 +43,6 @@
 	* --------------------------------------- */
 	.section{
     text-align:center;
-    padding: 0px 10vw;
+    padding: 0px 15vh;
 	}
+
