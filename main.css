@@ -1,0 +1,47 @@
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+    font-family: 'Josefin Sans', helvetica, arial, sans-serif;
+    font-weight: 400;
+		color: #fff;
+		margin:0;
+  }
+
+  .dark h1 {
+    color: black;
+  }
+
+  .socials {
+    text-align: left !important;
+    padding: 0vh 30vw;
+  }
+
+  .social_header {
+    padding-bottom: 1.5rem;
+  }
+
+  .socials h1:not(.social_header) {
+    padding-bottom: 1.2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+    font-weight: 600;
+  }
+
+  .dark a {
+    color: rgba(0,0,0,0.3) !important;
+  }
+
+  a:hover, a:active {
+    color: rgba(0,0,0,0.5) !important;
+  }
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+    text-align:center;
+    padding: 0px 10vw;
+	}

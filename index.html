@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>the flouRish</title>
+  <meta name="author" content="Rishabh" />
+  <meta name="description" content="Rishabh's Portfolio" />
+  <meta name="keywords"  content="fullpage, software engineer, portfolio, data science" />
+  <meta name="Resource-type" content="Document" />
+
+  <link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- TODO -->
+  <!-- Add Google Tag Manager or Google Analytics Tags -->
+  <!-- Add Social Meta Tags  -->
+
+  <link rel='icon' href='favicon.png' type='image/x-icon'/>
+
+  <!--[if IE]>
+    <script type="text/javascript">
+       var console = { log: function() {} };
+    </script>
+  <![endif]-->
+</head>
+<body>
+
+<div id="fullpage">
+  <div class="section " id="section0">
+    <div>
+      <h1>hi, i'm rishabh 👋🏾</h1>
+		</div>
+	</div>
+	<div class="section" id="section1">
+    <div class="dark">
+      <h1>i'm a third year computer engineering student at <a href="https://www.ece.utexas.edu/" target="__blank">ut austin</a> 🤘🏾 focused on data science </h1>
+    </div>
+	</div>
+	<div class="section" id="section2">
+		<div>
+			<h1>i've interned as a software engineer at <a href="https://about.att.com/newsroom/meet_the_bot_team.html" target="__blank">at&t</a> and <a href="https://www.linkedin.com/company/flapmax/" target="__blank">flapmax</a>, as well as a business analyst at <a href="https://www.evprivateequity.no/" target="__blank">energy ventures private equity</a></h1>
+		</div>
+  </div>
+  <div class="section" id="section3">
+    <div class="dark">
+      <h1>i love playing my <a href="https://www.youtube.com/watch?v=r31oe7Sm0vI" target="__blank">tabla</a>, learning about the mind 🧠</h1>
+    </div>
+  </div>
+  <div class="section" id="section4">
+    <div>
+      <div class="socials">
+        <h1 class="social_header"> still curious? </h1> <br>
+
+        <h1> <a href="mailto:rishabh.parekh@utexas.edu?Subject=Hi%20from%20your%20website" target="_top" title="shoot me an email">email me</a></h1><br>
+
+        <h1><a href="https://github.com/rishabhpar" target="__blank" title="browse through my projects">github </a></h1> <br>
+
+        <h1><a href="https://www.linkedin.com/in/rishpar/" target="__blank" title="find me on linkedin">linkedin </a></h1> <br>
+
+        <h1><a href="resume.pdf" target="__blank" title="scan my resume">resume </a></h1> <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="dist/fullpage.js"></script>
+<script src="dist/fitty.min.js"></script>
+
+<!-- optimizes the loading of the page -->
+<script defer>
+  fitty('h1', {
+      minSize: 32,
+      maxSize: 64
+    });
+</script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['about', 'current', 'experience', 'interesting', 'social'],
+        sectionsColor: ['#FF006E', '#FDDB00', '#C200FB', '#53E891', '#00A5FF'],
+        scrollBar: true,
+        scrollingSpeed: 600
+    });
+</script>
+
+</body>
+</html>
